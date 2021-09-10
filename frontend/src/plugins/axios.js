@@ -6,7 +6,7 @@ const instance = axios.create({
         'content-type': 'application/json;charset=UTF-8',
         // 'token': 'one' 
     },
-    baseURL: 'http://139.186.198.189:8080/cjudge/',
+    baseURL: 'http://',
     timeout: 10000,
     withCredentials: true
 })
